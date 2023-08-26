@@ -5,6 +5,16 @@ import { FaBars } from 'react-icons/fa';
 
 function Navbar() {
   const {openSidebar, openSubmenu, closeSubmenu} = useGlobalContext();
+
+  const displaySubmenu = (e) => {
+    const page = e.target.textContent;
+    const btnLocation = e.target.getBoundingClientRect();
+    const submenuCenter = (btnLocation.left + btnLocation.right)/2;
+    const submenuBottom = btnLocation.bottom - 3
+    // console.log(page, submenuCenter, submenuBottom);
+    openSubmenu(page, {submenuCenter, submenuBottom});
+  }
+
   return (
     <nav className='nav'>
       <div className="nav-center">
@@ -13,9 +23,9 @@ function Navbar() {
           <button className="btn toggle-btn" onClick={openSidebar}><FaBars/></button>
         </div>
         <ul className="nav-links">
-          <li><button className="link-btn">products</button></li>
-          <li><button className="link-btn">developers</button></li>
-          <li><button className="link-btn">company</button></li>
+          <li><button className="link-btn" onMouseOver={displaySubmenu}>products</button></li>
+          <li><button className="link-btn" onMouseOver={displaySubmenu}>developers</button></li>
+          <li><button className="link-btn" onMouseOver={displaySubmenu}>company</button></li>
         </ul>
         <button className="btn signin-btn">Sign in</button>
       </div>
