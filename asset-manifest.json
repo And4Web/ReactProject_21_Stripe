@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ReactProject_21_Stripe/static/css/main.30e464e1.css",
+    "main.js": "/ReactProject_21_Stripe/static/js/main.ef7a5708.js",
+    "static/js/787.f1be40b9.chunk.js": "/ReactProject_21_Stripe/static/js/787.f1be40b9.chunk.js",
+    "static/media/phone.svg": "/ReactProject_21_Stripe/static/media/phone.677db3fc8e4a34ff5dd7ccf3c4f776d8.svg",
+    "static/media/logo.svg": "/ReactProject_21_Stripe/static/media/logo.4658afbd4f1dae58190cd8b66107d42f.svg",
+    "static/media/hero.svg": "/ReactProject_21_Stripe/static/media/hero.6171c1152c8424300b3d41f8780cf377.svg",
+    "index.html": "/ReactProject_21_Stripe/index.html",
+    "main.30e464e1.css.map": "/ReactProject_21_Stripe/static/css/main.30e464e1.css.map",
+    "main.ef7a5708.js.map": "/ReactProject_21_Stripe/static/js/main.ef7a5708.js.map",
+    "787.f1be40b9.chunk.js.map": "/ReactProject_21_Stripe/static/js/787.f1be40b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e464e1.css",
+    "static/js/main.ef7a5708.js"
+  ]
+}
